@@ -1,0 +1,180 @@
+#title {
+        background-color: #d5d5d5;
+    }
+h1 {
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5; 
+    color: rgb(0, 0, 0); 
+}
+
+h3 {
+    font-family:'Times New Roman', Times, serif;  
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(0, 0, 0); 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h4 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+p {
+    color: #000000; 
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */ 
+.navbar {
+    padding: 0 0 4.5rem; 
+}
+.navbar-brand {
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 2.5rem; 
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px; 
+}
+
+.navbar-link {
+   font-family: cursive;  
+   font-size: 1.2rem;
+   color: rgb(0, 0, 0)
+} 
+
+/* Title Image */
+.title-image {
+    width: 80%; 
+    height: auto; 
+    transform: rotate(10deg); 
+    position: absolute; 
+}
+
+/* Features section */
+#features {
+    padding: 5% 10%; 
+    background-color: white; 
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;   
+    padding: 5%; 
+}
+
+.selfie {
+    margin-bottom: 2rem;
+    width: 250px;
+    height: auto;
+}
+
+.text {
+    font-size: medium; 
+}
+
+.MM{
+    padding-top: 30%;
+    padding-bottom: 15%;
+}
+
+.space {
+    padding-top: 20%
+}
+
+.Recuerdos {
+    padding-top: 30%;
+}
+
+#press {
+    background-color: #d5d5d5;
+    text-align: center; 
+    padding: 50px; 
+}
+
+.press-logo {
+    width: 40%; 
+    margin: 20px 20px 50px; 
+    border: 5px solid #000000;
+}
+
+.figure {
+    padding-left: 60px;
+    padding-right: 60px; 
+    margin-left: 5rem;
+    margin-right: 5rem; 
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header {
+    color: black;
+
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call To Action Section CTA */
+#cta {
+    background-color: #ffffff;
+    color:rgb(0, 0, 0); 
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+    padding: 7% 15%;
+    text-align: center; 
+    background-color: #ffffff;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+
+.contact {
+    padding-top: 7% ; 
+}
+
+/* Media Query Section */
+@media (max-width: 1028px) {
+
+    #title {
+        text-align:center;
+    }
+    .title-image {
+        position:static;
+        transform: rotate(0);
+    }
+}
+
+.social-icon {
+    color:#000000
+}
+
+
+/* COGS3 studyBuddy specific styles go here. */
